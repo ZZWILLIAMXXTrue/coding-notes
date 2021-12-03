@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <section class="submission">
+      <p>Create an account:</p>
+      <form>
+        <label for="username">Username:</label>
+        <br>
+        <!-- 'required' makes it required
+        'minlength' is the minimum amount of characters needed
+        'maxlength' is the maximum amount of characters needed-->
+				<input id="username" name="username" type="text" required minlength="3" maxlength="15">
+        <br>
+        <label for="password">Password:</label>
+        <br>
+				<input id="password" name="password" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+        <!-- There is also...
+        'min' and 'max' for numbers
+        'patteren' to limit what users can use (pattern="[a-zA-Z0-9]" will make users only be able to use letters and numbers)-->
+      </form>
+    </section>
+  </body>
+</html>
