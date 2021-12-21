@@ -3,7 +3,8 @@ This is basically just to help me memorize some stuff, idc if you want to add on
 ## Languages
 - html ⭕️
 - php ❌
-- css ❌
+- mysql ❌
 - c++ ❌
+- css ❌
 - java ❌
 - brainf*ck ❌
